@@ -1,0 +1,62 @@
+h1 {
+	color: red;
+	font-family: roboto;
+	text-align: center;
+}
+title{
+    color:blue
+  }
+  #blue-bordered {
+    border: 5px dashed blue;
+}
+h1, p{
+    border: 1px solid black;
+}
+
+/* Selecting styles to be applied to several classes */
+.FirstItem, .LastItem {
+   font-size: 1.2em;
+}
+
+/* Using multiple Kinds of selectors */
+h3, .red, #redElement {
+   color: red
+}
+.box p {
+    color: red;
+}  
+article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}   
+    /* unvisited link */
+    a:link {
+        color: tomato;
+    }
+
+    /* visited link */
+    a:visited {
+        color: tomato;
+    }
+
+    /* mouse over element */
+    div:hover {
+        color: tomato;
+    } 
+
+    /* selected link */
+    a:active{
+        color: #0000FF
+    }
+    div{
+        height: 150px;
+        width: 90%;
+    }
